@@ -1,4 +1,23 @@
+<<<<<<< HEAD
 name: Node API 
+=======
+name: NODE APP
+
+on: push
+
+jobs:
+  first_job: 
+    runs-on: ubuntu-latest
+    steps:
+    - name: Welcome message
+      run: echo "hello"
+    
+    - name: list files
+      run: ls
+
+    - name: readme file
+      run: cat readme.md
+>>>>>>> ee32b2907ea6efe4e8bcb7880128e7320aff73b2
 
 on: push 
 
